@@ -2,8 +2,8 @@ const http = require('http');
 const mineflayer = require('mineflayer');
 
 const cfg = {
-  host: process.env.MC_HOST || 'localhost',
-  port: parseInt(process.env.MC_PORT || '25565', 10),
+  host: process.env.MC_HOST || 'bedrakten.aternos.me',
+  port: parseInt(process.env.MC_PORT || '26895', 10),
   username: process.env.MC_USERNAME || 'RenderBot',
   password: process.env.MC_PASSWORD || undefined,
   auth: process.env.MC_AUTH || 'offline', // offline | microsoft
