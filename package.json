@@ -1,0 +1,15 @@
+{
+  "name": "mc-bot",
+  "version": "1.0.0",
+  "description": "Minecraft Java bot with /healthz endpoint for Render",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "mineflayer": "^4.23.0"
+  }
+}

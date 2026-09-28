@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: mc-bot
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: MC_HOST
+        sync: false
+      - key: MC_PORT
+        value: "25565"
+      - key: MC_USERNAME
+        value: RenderBot
+      - key: MC_AUTH
+        value: offline
+      - key: MC_VERSION
+        value: ""
